@@ -22,7 +22,7 @@
   try{
     $sql = "SELECT * FROM user WHERE id = :id";
     $stmt = $dbh->prepare($sql);
-    /* (1)ここに適切なバインド処理を追加して下さい  */
+    $stmt->execute(array(1, 5));
 
     $stmt->execute();
     $row = $stmt->fetch(PDO::FETCH_ASSOC);
