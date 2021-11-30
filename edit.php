@@ -55,12 +55,12 @@
             <div class="col-sm-8 col-sm-offset-2">
                 <div class="form-group">
                     <label for="name"><span class="required">お名前</span> </label>
-                    /* (2)ここに「名前」欄の初期表示処理を追加して下さい  */
+                    <input type="text" id="name" name="name" class="form-control" value="" placeholder="例：山田" autofocus>
 
                 </div>
                 <div class="form-group">
                     <label for="email"><span class="required">メールアドレス</span> </label>
-                    /* (3)ここに「メールアドレス」欄の初期表示処理を追加して下さい  */
+                    <input type="text" id="email" email="email" class="form-control" value="" placeholder="例：c200676@ccg.ac.jp" autofocus>
 
                 </div>
                 <div class="form-group">
