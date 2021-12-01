@@ -2,7 +2,10 @@
   session_start();
   require_once("functions.php");
 
-  /* (1)ここにセッション変数の受け渡し処理を追加して下さい  */
+  $name = $_SESSION['name'];
+  $email = $_SESSION['email'];
+  $gender = $_SESSION['gender'];
+  $edit = $_SESSION['edit'];
 
 
 
