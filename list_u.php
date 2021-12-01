@@ -55,7 +55,7 @@ try{
 <p>データ件数：<?php echo $count;?>件</p>
 
 <div class="container">
-<form action="" method="POST"> 
+<form action="edit.php" method="POST"> 
 
 <table border=1>
     <tr><th>id</th><th>名前</th><th>メールアドレス</th><th>性別</th><th>選択対象</th></tr>
@@ -76,7 +76,7 @@ try{
         ?>
     </td>
     <td>
-        <label><input type="radio">編集</label>
+        <input type="radio" name-"edit" value ="<?php echo $row['id'];?>">編集
 
     </td>
     </tr>
